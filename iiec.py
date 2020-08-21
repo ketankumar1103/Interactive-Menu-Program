@@ -35,7 +35,7 @@ while True:
 		
 		else:
 			print("Enter a valid program requirement")
-	elif "exit" in p:
+	elif (("exit" in p) or ("quit" in p) or ("close" in p)):
 			print("bye bye")
 			break	
 
